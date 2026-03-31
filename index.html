@@ -1,2 +1,685 @@
 <!DOCTYPE html>
-<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"></head><body><header class="header"><div class="container"><div class="header-top"><a href="#" class="logo">СварТех<span>.</span></a><nav class="nav-links"><a href="#products">Продукция</a><a href="#cases">Кейсы</a><a href="#about">О компании</a><a href="#contacts">Контакты</a></nav><div class="header-contact"><a href="tel:+78003000623">8 800 3000 623</a></div></div></header><section class="hero"><div class="hero-content"><h1>Промышленные сварочные каретки</h1><p class="hero-subtitle">Автоматизируйте сварочные работы в 1.5-4 раза быстрее!</p><div class="hero-stats"><div class="stat-item"><h3>300+</h3><p>Реализовано кареток</p></div><div class="stat-item"><h3>50+</h3><p>Клиентов</p></div><div class="stat-item"><h3>10</h3><p>Лет на рынке</p></div></div></div></section><section id="products" class="products"><h2 class="section-title">Наши продукты</h2><p class="section-subtitle">Увеличьте производительность до 300%</p><div class="products-grid"><div class="product-card"><div class="product-img"><div class="img-placeholder">Каретка на колёсах</div></div><div class="product-info"><h3>Profi OSC</h3><p>На колёсах с механизмом колебаний</p></div></div><div class="product-card"><div class="product-img"><div class="img-placeholder">На рейке</div></div><div class="product-info"><h3>Basic Rail</h3><p>Для вертикальной сварки</p></div></div><div class="product-card"><div class="product-img"><div class="img-placeholder">Механизм колебаний</div></div><div class="product-info"><h3>OSC Механизм</h3><p>Для наплавки швов</p></div></div></div></section><section id="contacts" class="contacts"><div class="container"><h2>Свяжитесь с нами</h2><div class="contact-info"><p>📞 8 800 3000 623</p><p>📧 info@profsvar.ru</p></div></div></section><footer class="footer"><p>© 2024 СварТех. Все права защищены.</p></footer><script src="js/script.js"></script></body></html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QVAZAR | Профессиональное сварочное оборудование</title>
+    <meta name="description" content="Ваш надёжный поставщик сварочных кареток и механизмов колебаний. Автоматизируйте производство!">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <a href="#" class="logo">
+                    <span class="logo-name">QVAZAR</span>
+                    <span class="logo-tagline">Сварочные технологии</span>
+                </a>
+                <nav class="nav-links" id="navLinks">
+                    <a href="#products">Продукция</a>
+                    <a href="#features">Преимущества</a>
+                    <a href="#cases">Проекты</a>
+                    <a href="#faq">FAQ</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+                <div class="header-actions">
+                    <a href="tel:+79990000000" class="phone-btn">📞 +7 (999) 000-00-00</a>
+                    <a href="#contacts" class="btn btn-primary btn-header">Заказать звонок</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🔥 НОВОЕ 2024</div>
+                <h1 class="hero-title">Профессиональные<br>сварочные каретки</h1>
+                <p class="hero-subtitle">Увеличение производительности<br>в 2.5-4 раза без изменения персонала</p>
+                <div class="hero-badges">
+                    <span class="badge">✓ Гарантия 2 года</span>
+                    <span class="badge">✓ Доставка по РФ</span>
+                </div>
+                <div class="hero-cta">
+                    <a href="#products" class="btn btn-primary btn-lg">Выбрать оборудование</a>
+                    <a href="#contacts" class="btn btn-secondary btn-lg">Получить консультацию</a>
+                </div>
+                <div class="hero-counters">
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="350">0</div>
+                        <div class="counter-label">Реализовано</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="80">0</div>
+                        <div class="counter-label">Проектов</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="12">0</div>
+                        <div class="counter-label">Лет экспертности</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-value" data-target="8">0</div>
+                        <div class="counter-label">Региона</div>
+                    </div>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">⚡</span>
+                        <span class="feature-text">Высокая производительность</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎯</span>
+                        <span class="feature-text">Идеальное качество</span>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🛡️</span>
+                        <span class="feature-text">Защита здоровья</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-header">
+                <span class="section-tagline">Почему QVAZAR</span>
+                <h2 class="section-title">Почему выбирают нас</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-box">🚀</div>
+                    <h3>Скорость</h3>
+                    <p class="feature-desc">Выработка на 150-300% выше ручного метода</p>
+                    <div class="feature-stat">+300%</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-box">🎯</div>
+                    <h3>Качество</h3>
+                    <p class="feature-desc">Стабильные швы без допусков</p>
+                    <div class="feature-stat">100%</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-box">💰</div>
+                    <h3>Экономия</h3>
+                    <p class="feature-desc">Снижение затрат на 40% за сезон</p>
+                    <div class="feature-stat">-40%</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-box">⏱️</div>
+                    <h3>Время</h3>
+                    <p class="feature-desc">От 3 до 5 дней на подготовку</p>
+                    <div class="feature-stat">3 дня</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-box">🔧</div>
+                    <h3>Поддержка</h3>
+                    <p class="feature-desc">Технический сервис 24/7</p>
+                    <div class="feature-stat">24/7</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-box">📦</div>
+                    <h3>Доставка</h3>
+                    <p class="feature-desc">Быстрая доставка по всей стране</p>
+                    <div class="feature-stat">3 дня</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <div class="products-header">
+                <span class="section-tagline">КАТАЛОГ</span>
+                <h2 class="section-title">Наша продукция</h2>
+                <p class="section-subtitle">Комплексные решения для автоматизации сварочных работ</p>
+            </div>
+            
+            <div class="products-tabs">
+                <button class="tab-btn active" data-filter="all">Все</button>
+                <button class="tab-btn" data-filter="wheels">На колёсах</button>
+                <button class="tab-btn" data-filter="rail">На рейке</button>
+                <button class="tab-btn" data-filter="osc">Механизмы колебания</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="wheels,osc">
+                    <div class="product-img-box">
+                        <span class="product-badge">ХИТ</span>
+                        <div class="img-placeholder pro"><img src="img/products/profi_osc.jpg" alt="Profi OSC"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR Profi OSC</h3>
+                        <p class="product-desc">Каретка на колёсах с механизмом колебаний</p>
+                        <ul class="product-specs">
+                            <li>⚙️ Механизм колебания</li>
+                            <li>🛞 На колёсах</li>
+                            <li>🔧 Двойной держатель</li>
+                            <li>⏱️ Производительность ×3</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="rail,osc">
+                    <div class="product-img-box">
+                        <div class="img-placeholder rails"><img src="img/products/profi_rail.jpg" alt="Profi Rail"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR Profi Rail</h3>
+                        <p class="product-desc">Каретка на рейке с механизмом колебания</p>
+                        <ul class="product-specs">
+                            <li>⚙️ Механизм колебания</li>
+                            <li>🛤️ Вакуумные присоски</li>
+                            <li>🎛️ Пульт управления</li>
+                            <li>⚙️ Точная настройка</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="wheels">
+                    <div class="product-img-box">
+                        <div class="img-placeholder basic"><img src="img/products/basic.jpg" alt="Basic"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR Basic</h3>
+                        <p class="product-desc">Каретка на колёсах без колебаний</p>
+                        <ul class="product-specs">
+                            <li>🛞 На колёсах</li>
+                            <li>🔄 Для гибкой рейки</li>
+                            <li>💰 Доступная цена</li>
+                            <li>📏 Швы до 6 мм</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="rail">
+                    <div class="product-img-box">
+                        <div class="img-placeholder rail"><img src="img/products/basic_rail.jpg" alt="Basic Rail"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR Basic Rail</h3>
+                        <p class="product-desc">Каретка на рейке для вертикальной сварки</p>
+                        <ul class="product-specs">
+                            <li>🛤️ Для рейки</li>
+                            <li>🧲 Вакуумные присоски</li>
+                            <li>⏱️ Быстрая настройка</li>
+                            <li>🎛️ Пульт управления</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="wheels,osc">
+                    <div class="product-img-box">
+                        <span class="product-badge">PRO</span>
+                        <div class="img-placeholder duo"><img src="img/products/duo.jpg" alt="Basic DUO"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR Basic DUO</h3>
+                        <p class="product-desc">Двойная каретка для параллельной сварки</p>
+                        <ul class="product-specs">
+                            <li>🔥 Два держателя</li>
+                            <li>🛞 Колёсная или реечная</li>
+                            <li>⚡ Экономия времени</li>
+                            <li>⚙️ Сложные соединения</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="osc">
+                    <div class="product-img-box">
+                        <div class="img-placeholder mech"><img src="img/products/osc_mech.jpg" alt="OSC Механизм"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR OSC Механизм</h3>
+                        <p class="product-desc">Универсальный механизм поперечных колебаний</p>
+                        <ul class="product-specs">
+                            <li>📐 0-17° угол колебания</li>
+                            <li>⚙️ 0-20°/сек скорость</li>
+                            <li>🔧 Суппорт точной настройки</li>
+                            <li>⏱️ 0-99 см/мин скорость</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="osc">
+                    <div class="product-img-box">
+                        <div class="img-placeholder stand"><img src="img/products/ws_basic.jpg" alt="WS-Basic"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR WS-Basic</h3>
+                        <p class="product-desc">Сварочная стойка с механизмом колебания</p>
+                        <ul class="product-specs">
+                            <li>🪑 Стационарная стойка</li>
+                            <li>⚙️ Механизм колебания</li>
+                            <li>🎛️ Пульт управления</li>
+                            <li>🎯 Точная настройка</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="osc">
+                    <div class="product-img-box">
+                        <span class="product-badge">VIP</span>
+                        <div class="img-placeholder stand"><img src="img/products/ws_profi.jpg" alt="WS-Profi"></div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">QVAZAR WS-Profi</h3>
+                        <p class="product-desc">Высокопроизводительная профильная стойка</p>
+                        <ul class="product-specs">
+                            <li>🪑 Отдельная стойка</li>
+                            <li>⚙️ Механизм колебания</li>
+                            <li>⬆️ Вертикальный суппорт</li>
+                            <li>🎯 Максимальная точность</li>
+                        </ul>
+                        <button class="btn btn-outline">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-banner">
+                <div class="container">
+                    <h3>Не нашли нужное оборудование?</h3>
+                    <p>Мы разработаем уникальную каретку под ваш проект</p>
+                    <a href="#contacts" class="btn btn-primary">Обсудить проект</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="osc-usage">
+        <div class="container">
+            <div class="osc-usage-header">
+                <span class="section-tagline">ВОПРОСЫ</span>
+                <h2 class="section-title">Когда нужен механизм колебания?</h2>
+            </div>
+            <div class="osc-usage-grid">
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">🎨</div>
+                    <h4>Наплавка металлом</h4>
+                    <p>Ровные швы любого размера</p>
+                </div>
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">🔄</div>
+                    <h4>Коррекция угла</h4>
+                    <p>Быстрая настройка при многопроходной сварке</p>
+                </div>
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">⚡</div>
+                    <h4>Порошковая проволока</h4>
+                    <p>Идеальный результат при многослойных швах</p>
+                </div>
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">⬆️</div>
+                    <h4>Вертикальная сварка</h4>
+                    <p>Сварка "на подъём" вертикально</p>
+                </div>
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">➕</div>
+                    <h4>Швы более 8 мм</h4>
+                    <p>Стыковые соединения большого размера</p>
+                </div>
+                <div class="osc-usage-item">
+                    <div class="osc-usage-icon">📐</div>
+                    <h4>Угловые/тавровые</h4>
+                    <p>Катет более 6 мм для качественного шва</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cases" class="cases">
+        <div class="container">
+            <div class="cases-header">
+                <span class="section-tagline">ОПЫТ</span>
+                <h2 class="section-title">Реализованные проекты</h2>
+            </div>
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-img-box">
+                        <div class="img-placeholder case"><img src="img/cases/angular_weld.jpg" alt="Угловые швы"></div>
+                        <div class="case-stats">⏱️ Ускорено ×3</div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Угловые и тавровые соединения</h3>
+                        <p><strong>Задача:</strong> Автоматизировать сварку углового шва</p>
+                        <p><strong>Решение:</strong> Каретка QVAZAR Basic OSC для катетов до 6 мм</p>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-img-box">
+                        <div class="img-placeholder case"><img src="img/cases/pipe_bundle.jpg" alt="Трубный набор"></div>
+                        <div class="case-stats">✅ 100% качество</div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Сварка труб большого диаметра</h3>
+                        <p><strong>Задача:</strong> Сварка труб с катетом 8 мм</p>
+                        <p><strong>Решение:</strong> Каретка QVAZAR Profi Rail на вакуумных присосках</p>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-img-box">
+                        <div class="img-placeholder case"><img src="img/cases/crane_beams.jpg" alt="Крановые балки"></div>
+                        <div class="case-stats">🏭 ДЛЯ НАКС</div>
+                    </div>
+                    <div class="case-content">
+                        <h3>Балки для кранов</h3>
+                        <p><strong>Задача:</strong> Сварка ответственных металлоконструкций</p>
+                        <p><strong>Решение:</strong> Комплект Profi OSC для аттестации НАКС</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comparison">
+        <div class="container">
+            <div class="comparison-header">
+                <span class="section-tagline">СРАВНЕНИЕ</span>
+                <h2 class="section-title">QVAZAR или ручная сварка?</h2>
+            </div>
+            <div class="comparison-table">
+                <div class="comparison-row">
+                    <div class="comp-header">
+                        <span>Параметр</span>
+                        <span class="comp-title QVAZAR">QVAZAR</span>
+                        <span class="comp-title manual">Ручная</span>
+                    </div>
+                    <div class="comp-item">
+                        <div class="comp-name">Скорость сварки</div>
+                        <div class="comp-data good">2-3 м/мин</div>
+                        <div class="comp-data bad">0.5-0.8 м/мин</div>
+                    </div>
+                    <div class="comp-item">
+                        <div class="comp-name">Качество шва</div>
+                        <div class="comp-data good">Стандарт ГОСТ</div>
+                        <div class="comp-data depend">Зависит от сварщика</div>
+                    </div>
+                    <div class="comp-item">
+                        <div class="comp-name">Равенство</div>
+                        <div class="comp-data good">100%</div>
+                        <div class="comp-data bad">30-50%</div>
+                    </div>
+                    <div class="comp-item">
+                        <div class="comp-name">Затраты на труд</div>
+                        <div class="comp-data bad">-60%</div>
+                        <div class="comp-data good">Базово</div>
+                    </div>
+                    <div class="comp-item">
+                        <div class="comp-name">Безопасность</div>
+                        <div class="comp-data good">Минимальная</div>
+                        <div class="comp-data bad">Высокая гибка</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <span class="section-tagline">ОТЗЫВЫ</span>
+                <h2 class="section-title">Что говорят клиенты</h2>
+            </div>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Алексей И. Васильев</h4>
+                            <p>Технический директор, ООО ПКФ "Уральская Стальная Компания"</p>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-stars"><span>★★★★★</span></div>
+                    <p class="review-text">"До приобретения кареток QVAZAR работы проводились вручную. Производительность выросла в 2.5 раза. Все проблемы с косо сваркой решены. Рекомендую!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Павел С.</h4>
+                            <p>Директор, ОП АО "СКАД тех"</p>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-stars"><span>★★★★★</span></div>
+                    <p class="review-text">"Более года используем механизмы QVAZAR. Оборудование работает без нареканий 80 часов в неделю. Покупкой довольны!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-info">
+                            <h4>Виктор Л.</h4>
+                            <p>Директор, НАНС Новороссийск</p>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <div class="review-stars"><span>★★★★★</span></div>
+                    <p class="review-text">"Каретка полностью соответствует характеристикам. Стабильность перемещения, работа механизма колебания — всё идеально!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="faq-header">
+                <span class="section-tagline">ВОПРОС</span>
+                <h2 class="section-title">Частые вопросы</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">Сколько длится доставка?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Сроки поставки: 3-7 рабочих дней в зависимости от региона. Возможна ускоренная доставка за доплату.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">Есть ли гарантия?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Мы предоставляем официальную гарантию 2 года на все каретки.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">Нужно ли обучение персонала?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да, мы проводим обучение для каждого клиента бесплатно. Обычно это от 1 до 2 дней.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">Есть ли возможность индивидуального заказа?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Да! Мы разрабатываем уникальные решения под ваши задачи и требования.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-btn" aria-expanded="false">
+                        <span class="faq-question">Как осуществляется оплата?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Допустима предоплата 30%, остальное — после приёмки. Также возможна оплата по документам.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="geography">
+        <div class="container">
+            <div class="geography-header">
+                <span class="section-tagline">ОХВАТ</span>
+                <h2 class="section-title">География продаж</h2>
+            </div>
+            <div class="geography-content">
+                <div class="city-list">
+                    <div class="city-item">
+                        <span class="city-name">Москва</span><span class="city-count">86 кареток</span>
+                    </div>
+                    <div class="city-item">
+                        <span class="city-name">Челябинск</span><span class="city-count">76 кареток</span>
+                    </div>
+                    <div class="city-item">
+                        <span class="city-name">Екатеринбург</span><span class="city-count">42 каретки</span>
+                    </div>
+                    <div class="city-item">
+                        <span class="city-name">Алматы</span><span class="city-count">36 кареток</span>
+                    </div>
+                    <div class="city-item">
+                        <span class="city-name">Тюмень</span><span class="city-count">13 кареток</span>
+                    </div>
+                    <div class="city-item">
+                        <span class="city-name">Санкт-Петербург</span><span class="city-count">14 кареток</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div class="container">
+            <div class="contacts-content">
+                <div class="contacts-info">
+                    <span class="section-tagline">СВЯЗЬ</span>
+                    <h2 class="section-title">Свяжитесь с нами</h2>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h4>Телефон</h4>
+                            <a href="tel:+78003000623">8 800 3000 623</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:sales@qvazar.ru">sales@qvazar.ru</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Адрес</h4>
+                            <p>г. Екатеринбург, ул. Промышленная, д. 45</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <a href="#" class="social-link telegram">Telegram</a>
+                        <a href="#" class="social-link whatsapp">WhatsApp</a>
+                    </div>
+                    <p class="contact-note">Региональный дистрибьютор в Свердловской области</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3 class="form-title">Оставить заявку</h3>
+                    <div class="form-group">
+                        <label for="name">Ваше имя *</label>
+                        <input type="text" id="name" name="name" required placeholder="Иван Иванов">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Комментарий</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Вопрос по продукции..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-btn">Отправить заявку</button>
+                    <p class="form-note">Нажимая «Отправить», вы соглашаетесь с политикой конфиденциальности</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-final-content">
+                <h2>Готовы автоматизировать производство?</h2>
+                <p>Оставьте номер — менеджер свяжется с вами за 5 минут!</p>
+                <div class="cta-final-btns">
+                    <a href="tel:+78003000623" class="btn btn-primary">Позвонить</a>
+                    <a href="#contacts" class="btn btn-secondary">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <span class="logo-name">QVAZAR</span>
+                        <span class="logo-tagline">Сварочные технологии</span>
+                    </a>
+                    <p>Профессиональное сварочное оборудование для промышленности</p>
+                    <p class="address">г. Екатеринбург, ул. Промышленная, д. 45</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Продукция</h4>
+                    <ul>
+                        <li><a href="#products">Каретки на колёсах</a></li>
+                        <li><a href="#products">Каретки на рейке</a></li>
+                        <li><a href="#products">Механизмы колебаний</a></li>
+                        <li><a href="#products">Сварочные стойки</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Компания</h4>
+                    <ul>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#cases">Кейсы</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Документы</h4>
+                    <ul>
+                        <li><a href="#">Политика конфиденциальности</a></li>
+                        <li><a href="#">Публичная оферта</a></li>
+                        <li><a href="#">Договор оферты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 QVAZAR. Все права защищены.</p>
+                <p class="footer-legal">Информация на сайте не является предложением по заключению договора.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="whatsapp-float">
+        <a href="https://wa.me/79990000000" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
+            <span>WhatsApp</span>
+        </a>
+    </div>
+
+    <button class="scroll-top" id="scrollToTop" aria-label="Наверх">↑</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
